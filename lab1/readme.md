@@ -28,27 +28,49 @@
 
 Для реализации пайплайна были использованы следующие процессоры + параметры:
 - GetFile
+  
 ![GetFile](./images/getfile.png)
+
 - UpdateAttribute
+
 ![UpdateAttribute](./images/updateattribute.png)
+
 - SplitRecord
+
 ![SplitRecord](./images/split_record.png)
+
 - QueryRecord
+ 
 ![QueryRecord](./images/query_record.png)
+
 - UpdateRecord
+
 ![UpdateRecord](./images/update_record.png)
+
 - ReplaceText
+
 ![ReplaceText](./images/replace_text.png)
+
 - MergeContentx2
+
 ![MergeContent](./images/merge_content.png)
+
 ![MergeContent x2](./images/merge_content_2.png)
+
 - PutFile
+
 ![PutFile](./images/put_file.png)
+
 - ConvertRecord
+
 ![ConvertRecord](./images/convert_record_json.png)
+
 - SplitJson
+
 ![SplitJson](./images/split_json.png)
+
 - PutElasticsearchHttp
+
 ![PutElasticsearchHttp](./images/split_json.png)
 
  - Добавлен процессор `UpdateAttribute` для корректного объединения всех файлов, чтобы присвоить каждому входному файлу одинаковое имя. 
