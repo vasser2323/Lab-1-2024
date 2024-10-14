@@ -1,4 +1,5 @@
-# Выполнил лабораторную работу студент группы 6231-010402D Павлов Владислав 
+g
+img2.# Выполнил лабораторную работу студент группы 6231-010402D Павлов Владислав 
 # Apache Airflow и Apache NiFi
 
 ## Apache Airflow
@@ -28,17 +29,27 @@
 
 Для реализации пайплайна были использованы следующие процессоры + параметры: 
 - GetFile
-  
+(./images/getfile.png)
 - UpdateAttribute
+(./images/updateattribute.png)
 - SplitRecord
+(./images/split_record.png)
 - QueryRecord
+(./images/query_record.png)
 - UpdateRecord
+(.lab1/images/query_record.png/images/update_record.png)
 - ReplaceText
+(./images/replace_text.png)
 - MergeContent (2 шт)
+(./images/merge_content.png) (./images/merge_content_2.png)
 - PutFile
+(./images/put_file.png)
 - ConvertRecord
+(./images/convert_record_json.png)
 - SplitJson
+(./images/split_json.png)
 - PutElasticsearchHttp
+(./images/split_json.png)
 
  - Добавлен процессор `UpdateAttribute` для корректного объединения всех файлов, чтобы присвоить каждому входному файлу одинаковое имя. 
 Без этого пайплайн функционировал некорректно. 
